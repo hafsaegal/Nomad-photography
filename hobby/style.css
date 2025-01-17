@@ -1,0 +1,13 @@
+.image {
+  background-image: url (image/Photo1.jpeg); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the whole background */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: larger;
+}

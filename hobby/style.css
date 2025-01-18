@@ -1,13 +1,19 @@
-.image {
-  background-image: url (image/Photo1.jpeg); /* Path to your image */
-  background-size: cover; /* Ensures the image covers the whole background */
-  background-position: center; /* Centers the image */
-  background-attachment: fixed; /* Makes the background fixed when scrolling */
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: white;
+body {
+  background-image: url(/image/Photo1.jpeg);
+  background-repeat: no-repeat;
+  background-position: centre;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-h1 {
-  font-size: larger;
+ul li {
+  display: flex;
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  padding: 12px;
+  float: right;
 }

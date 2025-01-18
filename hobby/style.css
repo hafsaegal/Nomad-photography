@@ -1,19 +1,62 @@
-body {
-  background-image: url(/image/Photo1.jpeg);
-  background-repeat: no-repeat;
-  background-position: centre;
-  background-attachment: fixed;
-  background-size: cover;
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  border: 8px black;
+  display flex: ;
+}
+.main {
+  width: 100%;
+  background-color: aqua;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo {
+  colour: pink;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+.Menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: centre;
+  align-items: center;
 }
 
 ul li {
-  display: flex;
-  list-style-type: none;
-  display: inline-block;
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
 }
 
-li {
-  list-style-type: none;
-  padding: 12px;
-  float: right;
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4 ease-in-out;
+}
+ul li a:hoover {
+  colour: grey;
 }
